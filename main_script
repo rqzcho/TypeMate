@@ -1,0 +1,14 @@
+on run
+	set clipboardText to (the clipboard as text)
+	
+	-- Simulate CMD + Tab to switch to the previously open application
+	tell application "System Events" to keystroke tab using {command down}
+	delay 0.5
+	
+	-- Simulate typing the clipboard content with a delay between each symbol
+	repeat with i from 1 to (count characters of clipboardText)
+		set thisCharacter to character i of clipboardText
+		tell application "System Events" to keystroke thisCharacter
+		delay 0.1 -- Adjust the delay duration as needed
+	end repeat
+end run
