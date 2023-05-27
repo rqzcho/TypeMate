@@ -1,16 +1,31 @@
-# TypeMate
 Mac Clipboard Typer Software
-TypeMate is a Mac Clipboard Typer Software.
 
-Purpose: TypeMate is a utility designed to simulate typing the contents of the clipboard on macOS. It allows users to bypass limitations on pasting in certain scenarios, such as password fields or environments where clipboard sharing is restricted (like Kasm in web browser as one provided from NetworkChuck (Youtuber).
+TypeMate is a utility designed to simulate typing the contents of the clipboard on macOS. It allows users to bypass limitations on pasting in certain scenarios, such as password fields or environments where clipboard sharing is restricted (like Kasm in a web browser, as one provided by NetworkChuck, a popular YouTuber).
 
-Usage: To use the Mac Clipboard Typer software, follow these steps:
+Usage Instructions
 
-Open ScriptEditor and paste the code. Copy text, go into the window you want to auto-type the text. CMD + Tab to Script Editor and run the code of TypeMate. The application will automatically switch to the previously open app using CMD + Tab. After a short delay, it will begin typing the clipboard contents character by character. The typing speed and delay between characters can be adjusted within the code settings.
+To use TypeMate, follow these steps:
 
-Further Improvements: To enhance the Mac Clipboard Typer software, consider the following improvement plans: 
-* Implement support for special characters and modifiers (e.g., shift, option). 
-* Add a feature to customise the delay between characters for more fine-grained control. 
-* Develop a user-friendly interface to provide visual feedback and configuration options. 
-* Enable the ability to save and load frequently used clipboard entries for quick access. 
-* Implement support for multiple clipboards to switch and type different clipboard contents. Contributions and suggestions for improvements are welcome.
+Open Script Editor on your Mac. You can find it in the Applications > Utilities folder.
+Copy the code provided for TypeMate and paste it into the Script Editor.
+Export the script as an application by selecting "File" > "Export" in the Script Editor menu. Choose a location and save it as an application file.
+Find a logo or picture in PNG format that you want to use as the TypeMate icon.
+Right-click on the exported TypeMate application and select "Get Info".
+In the Info window that appears, locate the current default icon at the top-left corner.
+Drag and drop the PNG picture onto the default icon in the Info window to replace it.
+Close the Info window.
+Now you can copy the TypeMate application to your Mac Dock for easy access.
+Whenever you copy anything, just click on the TypeMate application from the Dock. It will automatically switch to the previously active app using CMD + Tab and start typing the clipboard contents after a short delay.
+Note: You can adjust the typing speed and delay between characters by modifying the code settings in the Script Editor before exporting the application.
+
+Further Improvements
+
+To enhance TypeMate, consider the following improvement plans:
+
+Implement support for special characters and modifiers (e.g., shift, option) to handle a wider range of typing scenarios.
+Add a feature to customize the delay between characters for more fine-grained control based on individual preferences.
+Develop a user-friendly interface to provide visual feedback and configuration options, making it easier to adjust settings.
+Enable the ability to save and load frequently used clipboard entries for quick access and efficiency.
+Implement support for multiple clipboards, allowing users to switch and type different clipboard contents based on their needs.
+Contributions and suggestions for further improvements to TypeMate are always welcome!
+
