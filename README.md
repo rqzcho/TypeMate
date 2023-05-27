@@ -11,12 +11,15 @@ To use TypeMate, follow these steps:
 3. Export the script as an application by selecting "File" > "Export" in the Script Editor menu. Choose a location and save it as an application file.
 Step 4. is only cosmetical and not neccessary.
 4. Find a logo or picture in PNG format that you want to use as the TypeMate icon.
-4.1 Right-click on the exported TypeMate application and select "Get Info".
-4.2 In the Info window that appears, locate the current default icon at the top-left corner.
-4.3 Drag and drop the PNG picture onto the default icon in the Info window to replace it. Close the Info window.
+- Right-click on the exported TypeMate application and select "Get Info".
+- In the Info window that appears, locate the current default icon at the top-left corner.
+- Drag and drop the PNG picture onto the default icon in the Info window to replace it. Close the Info window.
 5. Now you can copy the TypeMate application to your Mac Dock for easy access.
+
 Whenever you copy anything, just click on the TypeMate application from the Dock. It will automatically switch to the previously active app using CMD + Tab and start typing the clipboard contents after a short delay.
 Note: You can adjust the typing speed and delay between characters by modifying the code settings in the Script Editor before exporting the application.
+
+
 
 Further Improvements
 
